@@ -1,0 +1,175 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
+    "file": "entries/fallbacks/layout.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_internal.js",
+      "_index.js",
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/routes/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/Logo.T1negyr0.png",
+      "_app/immutable/assets/QuienesSomos_01.h95Xt9z3.avif",
+      "_app/immutable/assets/Arroz_Pollo.6U9toS9V.avif",
+      "_app/immutable/assets/Ceviche.wk6kLfVs.avif",
+      "_app/immutable/assets/Pollo_Brasa.ip7-fWrk.avif",
+      "_app/immutable/assets/Chancho_Palo.4kQ708Oe.avif",
+      "_app/immutable/assets/WhatsApp-Animado.aHgEjoBM.gif",
+      "_app/immutable/assets/icomoon.XLFMcUQI.eot",
+      "_app/immutable/assets/icomoon.gKIZ3Eh_.ttf",
+      "_app/immutable/assets/icomoon.-qHKCoHt.woff",
+      "_app/immutable/assets/icomoon.jx7RvfhK.svg",
+      "_app/immutable/assets/BG_QuienesSomos_01.3SqrjlWj.avif",
+      "_app/immutable/assets/BG_QuienesSomos_02.n0P34CJO.avif",
+      "_app/immutable/assets/BG_Contactenos_01.SQOWi2NT.avif",
+      "_app/immutable/assets/BG_Contactenos_02.pUsEzHY-.avif"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.E5oQgbqA.css"
+    ],
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/Documentos_de_PageRaiz/icomoon/fonts/icomoon.eot": {
+    "file": "_app/immutable/assets/icomoon.XLFMcUQI.eot",
+    "src": "src/routes/Documentos_de_PageRaiz/icomoon/fonts/icomoon.eot"
+  },
+  "src/routes/Documentos_de_PageRaiz/icomoon/fonts/icomoon.svg": {
+    "file": "_app/immutable/assets/icomoon.jx7RvfhK.svg",
+    "src": "src/routes/Documentos_de_PageRaiz/icomoon/fonts/icomoon.svg"
+  },
+  "src/routes/Documentos_de_PageRaiz/icomoon/fonts/icomoon.ttf": {
+    "file": "_app/immutable/assets/icomoon.gKIZ3Eh_.ttf",
+    "src": "src/routes/Documentos_de_PageRaiz/icomoon/fonts/icomoon.ttf"
+  },
+  "src/routes/Documentos_de_PageRaiz/icomoon/fonts/icomoon.woff": {
+    "file": "_app/immutable/assets/icomoon.-qHKCoHt.woff",
+    "src": "src/routes/Documentos_de_PageRaiz/icomoon/fonts/icomoon.woff"
+  },
+  "src/routes/Documentos_de_PageRaiz/img/Arroz_Pollo.avif": {
+    "file": "_app/immutable/assets/Arroz_Pollo.6U9toS9V.avif",
+    "src": "src/routes/Documentos_de_PageRaiz/img/Arroz_Pollo.avif"
+  },
+  "src/routes/Documentos_de_PageRaiz/img/BG_Contactenos_01.avif": {
+    "file": "_app/immutable/assets/BG_Contactenos_01.SQOWi2NT.avif",
+    "src": "src/routes/Documentos_de_PageRaiz/img/BG_Contactenos_01.avif"
+  },
+  "src/routes/Documentos_de_PageRaiz/img/BG_Contactenos_02.avif": {
+    "file": "_app/immutable/assets/BG_Contactenos_02.pUsEzHY-.avif",
+    "src": "src/routes/Documentos_de_PageRaiz/img/BG_Contactenos_02.avif"
+  },
+  "src/routes/Documentos_de_PageRaiz/img/BG_QuienesSomos_01.avif": {
+    "file": "_app/immutable/assets/BG_QuienesSomos_01.3SqrjlWj.avif",
+    "src": "src/routes/Documentos_de_PageRaiz/img/BG_QuienesSomos_01.avif"
+  },
+  "src/routes/Documentos_de_PageRaiz/img/BG_QuienesSomos_02.avif": {
+    "file": "_app/immutable/assets/BG_QuienesSomos_02.n0P34CJO.avif",
+    "src": "src/routes/Documentos_de_PageRaiz/img/BG_QuienesSomos_02.avif"
+  },
+  "src/routes/Documentos_de_PageRaiz/img/Ceviche.avif": {
+    "file": "_app/immutable/assets/Ceviche.wk6kLfVs.avif",
+    "src": "src/routes/Documentos_de_PageRaiz/img/Ceviche.avif"
+  },
+  "src/routes/Documentos_de_PageRaiz/img/Chancho_Palo.avif": {
+    "file": "_app/immutable/assets/Chancho_Palo.4kQ708Oe.avif",
+    "src": "src/routes/Documentos_de_PageRaiz/img/Chancho_Palo.avif"
+  },
+  "src/routes/Documentos_de_PageRaiz/img/Logo.png": {
+    "file": "_app/immutable/assets/Logo.T1negyr0.png",
+    "src": "src/routes/califica/img/Logo.png"
+  },
+  "src/routes/Documentos_de_PageRaiz/img/Pollo_Brasa.avif": {
+    "file": "_app/immutable/assets/Pollo_Brasa.ip7-fWrk.avif",
+    "src": "src/routes/Documentos_de_PageRaiz/img/Pollo_Brasa.avif"
+  },
+  "src/routes/Documentos_de_PageRaiz/img/QuienesSomos_01.avif": {
+    "file": "_app/immutable/assets/QuienesSomos_01.h95Xt9z3.avif",
+    "src": "src/routes/Documentos_de_PageRaiz/img/QuienesSomos_01.avif"
+  },
+  "src/routes/Documentos_de_PageRaiz/img/WhatsApp-Animado.gif": {
+    "file": "_app/immutable/assets/WhatsApp-Animado.aHgEjoBM.gif",
+    "src": "src/routes/Documentos_de_PageRaiz/img/WhatsApp-Animado.gif"
+  },
+  "src/routes/agradecimiento/+page.svelte": {
+    "file": "entries/pages/agradecimiento/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/agradecimiento/+page.svelte"
+  },
+  "src/routes/califica/+page.server.js": {
+    "file": "entries/pages/califica/_page.server.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/califica/+page.server.js"
+  },
+  "src/routes/califica/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/Logo.T1negyr0.png",
+      "_app/immutable/assets/Escala_Likert._wg0BwOB.png"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.66-j7TBv.css"
+    ],
+    "file": "entries/pages/califica/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/califica/+page.svelte"
+  },
+  "src/routes/califica/img/Escala_Likert.png": {
+    "file": "_app/immutable/assets/Escala_Likert._wg0BwOB.png",
+    "src": "src/routes/califica/img/Escala_Likert.png"
+  },
+  "src/routes/califica/img/Logo.png": {
+    "file": "_app/immutable/assets/Logo.T1negyr0.png",
+    "src": "src/routes/califica/img/Logo.png"
+  }
+}
