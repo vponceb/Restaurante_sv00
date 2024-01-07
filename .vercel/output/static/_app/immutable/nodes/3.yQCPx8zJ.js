@@ -1,0 +1,2 @@
+import{s as r,n as a}from"../chunks/scheduler.x38HN0Fw.js";import{S as i,i as l,g as c,h as m,y as p,a as f,f as d}from"../chunks/index.e1rW_ejX.js";function u(s){let e,n=`<meta http-equiv="refresh" content="5;URL=../"/>
+  Gracias por contestar el la entrevista`;return{c(){e=c("body"),e.innerHTML=n},l(t){e=m(t,"BODY",{"data-svelte-h":!0}),p(e)!=="svelte-9olesn"&&(e.innerHTML=n)},m(t,o){f(t,e,o)},p:a,i:a,o:a,d(t){t&&d(e)}}}class v extends i{constructor(e){super(),l(this,e,null,u,r,{})}}export{v as component};
