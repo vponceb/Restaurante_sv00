@@ -1,5 +1,5 @@
-import adapter from '@sveltejs/adapter-auto';
-
+// Adaptador para Vercel
+import adapter from '@sveltejs/adapter-vercel';
 
 // Para SCSS
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
