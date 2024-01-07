@@ -1,12 +1,79 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- TODO:  "title" es el título de tu página web, que aparece en la pestaña del navegador y en los resultados de búsqueda-->
+    <title>Restaurante</title>
+
+    <!-- TODO: "Description" es la etiqueta define la descripción de la página web, que aparece debajo del título en los resultados de búsqueda -->
+    <meta
+      name="Description"
+      content="Restaurante es un lugar acogedor y familiar donde disfrutar de la mejor parrillada y cocina tradicional peruana"
+    />
+
+    <!-- TODO: "“keywords”" es la etiqueta define las palabras clave que se relacionan con el contenido y el tema de tu página web. Las palabras clave ayudan a los motores de búsqueda a clasificar tu página web y a mostrarla a los usuarios que buscan esos términos -->
+    <meta
+      name="“keywords”"
+      content="“restaurante,"
+      parrillada,
+      cocina
+      tradicional,
+      peruana,
+      lima,
+      san
+      martín
+      de
+      porres”
+    />
+
+    <!-- TODO: faviconvue.ico es el logo de pestaña de la página. Nota: se debe de borrar el que está por defecto y poner el nuevo con otro nombre en la carpeta static.  -->
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <!--Para que el ancho de la pagina seal al 100% y la escala sea al 100% para que no la achique-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- link de iconos en linea: https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- links de fuentes globales https://fonts.google.com/specimen/Open+Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- TODO: Estilos globales para todas las paginas.  -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        vertical-align: baseline;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      html {
+        /* Fonts para todo el docuenbt */
+        font-family: "Open Sans", sans-serif;
+
+        /* Desplazmiento lento hacia el alcla */
+        scroll-behavior: smooth;
+      }
+    </style>
+
+    %sveltekit.head%
+  </head>
+
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
 </html>
