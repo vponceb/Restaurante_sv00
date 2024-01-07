@@ -1,17 +1,24 @@
-// Adaptador para Vercel
-import adapter from '@sveltejs/adapter-vercel';
+// Adaptador para Netlify
+import adapter from '@sveltejs/adapter-netlify';
 
 // Para SCSS
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 
-/** @type {import('@sveltejs/kit').Config} */
-
 export default {
-	kit: {
-		adapter: adapter({
-			// see below for options that can be set here
-		})
-	},
-	// Para SCSS
-	preprocess: [vitePreprocess()],
+    kit: {        
+        // default options are shown
+        adapter:         
+        adapter({
+            // if true, will create a Netlify Edge Function rather
+            // than using standard Node-based functions
+            edge: false,
+
+            // if true, will split your app into multiple functions
+            // instead of creating a single one for the entire app.
+            // if `edge` is true, this option cannot be used
+            split: false
+        })
+    },
+    // Para SCSS
+    preprocess: [vitePreprocess()],
 };
